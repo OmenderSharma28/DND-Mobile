@@ -1,0 +1,57 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/contact_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:src="@drawable/defaultimage" />
+
+        <TextView
+            android:id="@+id/messagetextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/messagetextView2"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/messagetextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/messagetextView1"
+            android:layout_toLeftOf="@+id/msgcheckBox1"
+            android:layout_toRightOf="@+id/contact_image"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/description"
+             />
+
+        <CheckBox
+            android:id="@+id/msgcheckBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="7dp"
+            android:button="@drawable/chekbox_button" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/messagetextView2"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/description"/>
+
+    </RelativeLayout>

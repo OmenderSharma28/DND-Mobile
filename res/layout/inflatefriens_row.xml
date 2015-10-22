@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" >
+
+        <CheckBox
+            android:id="@+id/selectfriendcheckBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="7dp"
+            android:button="@drawable/chekbox_button" >
+        </CheckBox>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/contactImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/defaultimage" />
+
+    <TextView
+        android:id="@+id/ContactNametextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/contactImage"
+        android:ellipsize="end"
+        android:maxLength="25"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/PhoneNotextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contactImage"
+        android:layout_alignLeft="@+id/ContactNametextView1"
+        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/description" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactImage"
+        android:background="@drawable/seprator_horizontal" >
+    </LinearLayout>
+
+</RelativeLayout>

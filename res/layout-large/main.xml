@@ -1,0 +1,103 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bg_screen">
+<RelativeLayout 
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:layout_marginTop="28dp" android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/add_to_block"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="150dp"
+        android:clickable="true"
+        android:onClick="@string/click_event"
+        android:scaleType="fitCenter"
+        android:src="@drawable/add_to_block_selector" android:paddingTop="-2dp"/>
+
+    <ImageView
+        android:id="@+id/block_list"
+        android:layout_width="20dp"
+        android:layout_height="119dp"
+        android:layout_above="@+id/add_to_block"
+        android:layout_alignLeft="@+id/add_to_block"
+        android:layout_alignRight="@+id/add_to_block"
+        android:layout_marginBottom="-3dp"
+        android:clickable="true"
+        android:onClick="@string/click_event"
+        android:paddingRight="9dp"
+        android:scaleType="fitCenter"
+        android:scrollX="-2dp"
+        android:src="@drawable/view_list_selector" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/block_list"
+        android:layout_alignLeft="@+id/block_list"
+        android:layout_marginBottom="45dp"
+        android:layout_marginLeft="70dp"
+        android:clickable="true"
+        android:onClick="@string/click_event"
+        android:scaleType="fitCenter"
+        android:scrollX="1dp"
+        android:src="@drawable/schedule_profile_selector" android:scrollY="1dp"/>
+
+    <ImageView
+        android:id="@+id/send_message"
+        android:layout_width="99dp"
+        android:layout_height="130dp"
+        android:layout_above="@+id/backup"
+        android:layout_marginBottom="-7dp"
+        android:layout_marginLeft="58dp"
+        android:layout_toRightOf="@+id/add_to_block"
+        android:clickable="true"
+        android:onClick="@string/click_event"
+        android:scaleType="fitCenter"
+        android:scrollX="2dp"
+        android:scrollY="-2dp"
+        android:src="@drawable/schedule_sms_selector" />
+
+    <ImageView
+        android:id="@+id/backup"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/send_message"
+        android:layout_alignTop="@+id/add_to_block"
+        android:layout_marginTop="-5dp"
+        android:clickable="true"
+        android:onClick="@string/click_event"
+        android:scaleType="fitCenter"
+        android:scrollX="2dp"
+        android:src="@drawable/phone_backup_selector" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignBottom="@+id/add_to_block"
+        android:layout_centerHorizontal="false"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="72dp"
+        android:clickable="true"
+        android:onClick="@string/click_event"
+        android:scaleType="fitCenter"
+        android:src="@drawable/innerdial" android:scrollY="-6dp"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView6"
+        android:scaleType="fitCenter"
+         />
+
+</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <item android:id="@+id/bycontact"
+        android:title="from Contact" />
+    <item android:id="@+id/bylog"
+        android:title="Call Log"
+        />
+</menu>

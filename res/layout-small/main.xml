@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@drawable/bg_screen"
+    android:gravity="center_vertical|center_horizontal">
+
+    <ImageView
+        android:id="@+id/add_to_block"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:onClick="@string/click_event"
+        android:src="@drawable/add_to_block_selector" android:scrollX="5dp" android:scrollY="5dp"/>
+
+    <ImageView
+        android:id="@+id/block_list"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/add_to_block"
+        android:layout_alignLeft="@+id/add_to_block"
+        android:layout_alignRight="@+id/add_to_block"
+        android:paddingRight="9dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:onClick="@string/click_event"
+        android:src="@drawable/view_list_selector" android:scrollY="-2dp" android:scrollX="-2dp"/>
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="100dp"
+        android:layout_height="78dp"
+        android:layout_alignBottom="@+id/block_list"
+        android:layout_alignLeft="@+id/block_list"
+        android:layout_marginBottom="44dp"
+        android:layout_marginLeft="57dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:onClick="@string/click_event"
+        android:src="@drawable/schedule_profile_selector" android:scrollY="-4dp" android:scrollX="-2dp"/>
+
+    <ImageView
+        android:id="@+id/send_message"
+        android:layout_width="85dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/add_to_block"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/add_to_block"
+        android:paddingLeft="3dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:onClick="@string/click_event"
+        android:src="@drawable/schedule_sms_selector" />
+
+    <ImageView
+        android:id="@+id/backup"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/send_message"
+        android:layout_alignTop="@+id/add_to_block"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:onClick="@string/click_event"
+        android:src="@drawable/phone_backup_selector" android:paddingRight="4dp"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/profile"
+        android:layout_alignTop="@+id/block_list"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:onClick="@string/click_event"
+        android:src="@drawable/innerdial" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/profile"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="-25dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DNDMobileActivity!</string>
+    <string name="app_name">DNDMobile</string>
+
+    <string-array name="choose_to_block">
+        <item>Both call and message</item>
+        <item>only call</item>
+        <item>only message</item>
+    </string-array>
+
+    <string name="export">Export Contacts</string>
+    <string name="showblocked_message">Show Blocked message</string>
+    <string name="schedule_profile">Schedule Profile</string>
+    <string name="schedule_message">Schedule Message</string>
+    <string name="blockednolist">View block List</string>
+    <string name="addto_block">Add to BlockList</string>
+    <string name="manage_ringer">Set Ringing schedule</string>
+    <string name="send_message">Send Message</string>
+    <string name="successfully_saved">Successfully saved </string>
+    <string name="add_blocknumbers">ADD TO BLOCK LIST</string>
+    <string name="notoblock">Number to block</string>
+    <string name="name">Name</string>
+    <string name="blockonly">Block</string>
+    <string name="back">Back</string>
+    <string name="add_title">Add</string>
+    <string name="cancel_title">Cancel</string>
+    <string name="alert_no_blank">Enter Phone Number to Block</string>
+    <string name="delete_title">Delete</string>
+    <string name="alert_to_delete">Are you sure ?</string>
+    <string name="ok_title">Ok</string>
+    <string name="kphonebackup">Phone Backup</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="save">Save</string>
+    <string name="_0">0</string>
+    <string name="clear">clear</string>
+    <string name="import_contact">Import Contacts</string>
+    <string name="start_date">Start  Date</string>
+    <string name="end_date">End  Date</string>
+    <string name="start_time">Start  Time</string>
+    <string name="end_time">End  Time</string>
+    <string name="set_profile">Profile</string>
+    <string name="profile_sound">Sound</string>
+    <string name="profile_vibration1">Only Vibration</string>
+    <string name="profile_vibration2">Vibration</string>
+    <string name="profile_silent">Silent</string>
+    <string name="details">Details</string>
+    <string name="write">Writing Contacact..</string>
+    <string name="File_not_found">csv file not found</string>
+    <string name="block_person">This person is blocked since </string>
+    <string name="edit_block_setting">Edit Block Setting </string>
+    <string name="no_scheduled_message">No Schedule Messages</string>
+    <string name="no_blocked_number">Blocked Number List Empty</string>
+    <string name="no_profile_history">No Profile History</string>
+    <string name="click_event">click</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="message">Message</string>
+    <string name="dial_call">Dialed Call</string>
+    <string name="missed_call">Missed Call</string>
+    <string name="recieve_call">Receive Call</string>
+    <string name="view_list">View List</string>
+    <string name="contacts_loading">Loading Contacts</string>
+    <string name="message_loading">Loading Messages</string>
+    <string name="calllog_loading">Loading Call Log</string>
+    <string name="saving">Saving.....</string>
+    <string name="contact_success">contact success</string>
+    <string name="message_success">message success</string>
+    <string name="calllog_success">call log success</string>
+    <string name="saving_succes">saving success</string>
+<string name="file_not_found">File Not Found To update contact list</string>
+<string name="please_wait">Please wait....</string>
+<string name="no_email_client">There are no email clients installed.</string>
+<string name="email_message">Backup of your Contacts is saved on the SD card in Excel format.&lt;br&gt;&lt;br&gt;&lt;b&gt;Do you want to email the backup(recommended)?&lt;/b&gt;</string>
+<string name="block_list_message">Are you sure, you want to remove from Blocked list</string>
+<string name="view_blocked_calls">View Blocked calls</string>
+<string name="view_blocked_sms">View blocked sms</string>
+<string name="view_all_blocked">View All</string>
+<string name="formate_not_supported">Format Not Supported</string>
+<string name="wrong_date_time">Sorry, you entered wrong date</string>
+<string name="has_scheduled">Has Been Scheduled</string>
+<string name="add_mobile_number">Enter Mobile Number</string>
+<string name="choose_number">Choose Number From</string>
+<string name="sure_to_delete">Are you sure, you want to delete</string>
+<string name="attention">Attention</string>
+<string name="block_sms">Block SMS Only</string>
+<string name="block_call">Block Calls Only</string>
+<string name="block_both">Block SMS And Call Both</string>
+<string name="delete_block_list">Delete from block list</string>
+<string name="block_setting">Edit Block setting</string>
+<string name="backup">BACKUP</string>
+<string name="choose_course">Course</string>
+
+
+</resources>

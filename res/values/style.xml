@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonBar">
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+        <item name="android:paddingBottom">1dip</item>
+        <item name="android:background">@drawable/statusbar</item>
+    </style>
+
+    <style name="TabWidgetText">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="MyTabStyle" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textColor">#5DFC0A</item>
+    </style>
+
+    <style name="DialogTitle">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowTitleStyle">@style/PauseDialogTitle</item>
+           <item name="android:layout_width">fill_parent</item>
+       
+    </style>
+
+    <style name="PauseDialogTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/header</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25dp</item>
+        
+        <!--  item name="android:width">fill_parent</item-->
+    </style>
+
+    <style name="DialogWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DialogWindowTitle</item>
+    </style>
+
+</resources>
